@@ -16,7 +16,7 @@
   * [第8条：妥善处理空值](<good code/page-1/di-8-tiao-tuo-shan-chu-li-kong-zhi.md>)
   * [第9条： 使用 use 来关闭资源](<good code/page-1/di-9-tiao-shi-yong-use-lai-guan-bi-zi-yuan.md>)
   * [第10条：编写单元测试](<good code/page-1/di-10-tiao-bian-xie-dan-yuan-ce-shi.md>)
-* [第二章：可读性](<good code/di-er-zhang-ke-du-xing/README.md>)
+* [第二章：可读性](di-yi-bu-fen-liang-hao-de-dai-ma/di-er-zhang-ke-du-xing.md)
   * [第11条：为了可读性设计代码](<good code/di-er-zhang-ke-du-xing/di-11-tiao-wei-le-ke-du-xing-she-ji-dai-ma.md>)
 
 ## 第二部分：良好的设计 <a href="#good design" id="good design"></a>
