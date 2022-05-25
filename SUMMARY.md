@@ -21,11 +21,21 @@
   * [第12条：操作符的行为应该与其名称一致](<good code/di-er-zhang-ke-du-xing/di-12-tiao-cao-zuo-fu-de-hang-wei-ying-gai-yu-qi-ming-cheng-yi-zhi.md>)
   * [第13条：避免返回或操作 Unit?](<good code/di-er-zhang-ke-du-xing/di-13-tiao-bi-mian-fan-hui-huo-cao-zuo-unit.md>)
   * [第14条： 在变量不清晰时指定其类型](<good code/di-er-zhang-ke-du-xing/di-14-tiao-zai-bian-liang-bu-qing-xi-shi-zhi-ding-qi-lei-xing.md>)
-  * [第15条：考虑显式引用接收者](<good code/di-er-zhang-ke-du-xing/di-15-tiao-kao-lv-xian-shi-yin-yong-jie-shou-zhe.md>)
+  * [第15条：考虑显式引用接收者](<good code/di-er-zhang-ke-du-xing/page-2.md>)
   * [第16：属性应该代表状态，而非行为](<good code/di-er-zhang-ke-du-xing/di-16-shu-xing-ying-gai-dai-biao-zhuang-tai-er-fei-hang-wei.md>)
   * [第17条：考虑使用具名参数](<good code/di-er-zhang-ke-du-xing/di-17-tiao-kao-lv-shi-yong-ju-ming-can-shu.md>)
   * [第18条：遵守编程惯例](<good code/di-er-zhang-ke-du-xing/di-18-tiao-zun-shou-bian-cheng-guan-li.md>)
 
 ## 第二部分：良好的设计 <a href="#good design" id="good design"></a>
 
-* [Page 1](<good design/page-1.md>)
+* [第三章：可重用性](<good design/di-san-zhang-ke-zhong-yong-xing/README.md>)
+  * [第19条：不要重复知识](<good design/di-san-zhang-ke-zhong-yong-xing/di-19-tiao-bu-yao-zhong-fu-zhi-shi.md>)
+* [第四章](<good design/di-si-zhang.md>)
+* [第五章](<good design/di-wu-zhang.md>)
+* [第六章](<good design/di-liu-zhang.md>)
+
+## 第三部分：性能 <a href="#performance" id="performance"></a>
+
+* [第七章：](performance/di-qi-zhang.md)
+* [第八章：高效的集合处理](performance/di-ba-zhang-gao-xiao-de-ji-he-chu-li/README.md)
+  * [第49条：在具有多个处理步骤的大型集合上，优先使用 Sequence](performance/di-ba-zhang-gao-xiao-de-ji-he-chu-li/di-49-tiao-zai-ju-you-duo-ge-chu-li-bu-zhou-de-da-xing-ji-he-shang-you-xian-shi-yong-sequence.md)
