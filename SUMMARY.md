@@ -21,7 +21,10 @@
   * [第12条：操作符的行为应该与其名称一致](<good code/di-er-zhang-ke-du-xing/di-12-tiao-cao-zuo-fu-de-hang-wei-ying-gai-yu-qi-ming-cheng-yi-zhi.md>)
   * [第13条：避免返回或操作 Unit?](<good code/di-er-zhang-ke-du-xing/di-13-tiao-bi-mian-fan-hui-huo-cao-zuo-unit.md>)
   * [第14条： 在变量不清晰时指定其类型](<good code/di-er-zhang-ke-du-xing/di-14-tiao-zai-bian-liang-bu-qing-xi-shi-zhi-ding-qi-lei-xing.md>)
-  * [Page 2](<good code/di-er-zhang-ke-du-xing/page-2.md>)
+  * [第15条：考虑显式引用接收者](<good code/di-er-zhang-ke-du-xing/di-15-tiao-kao-lv-xian-shi-yin-yong-jie-shou-zhe.md>)
+  * [第16：属性应该代表状态，而非行为](<good code/di-er-zhang-ke-du-xing/di-16-shu-xing-ying-gai-dai-biao-zhuang-tai-er-fei-hang-wei.md>)
+  * [第17条：考虑使用具名参数](<good code/di-er-zhang-ke-du-xing/di-17-tiao-kao-lv-shi-yong-ju-ming-can-shu.md>)
+  * [第18条：遵守编程惯例](<good code/di-er-zhang-ke-du-xing/di-18-tiao-zun-shou-bian-cheng-guan-li.md>)
 
 ## 第二部分：良好的设计 <a href="#good design" id="good design"></a>
 
