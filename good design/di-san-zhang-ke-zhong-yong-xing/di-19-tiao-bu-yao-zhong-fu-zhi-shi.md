@@ -70,7 +70,7 @@ UI 设计标准和技术的变化如此之快，以至于我们对客户的理�
 
 这两个函数都需要计算学生在上学期获得了多少学分，因此开发人员提取一个函数： `calculatePointsFromPassedCourses`
 
-![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1).png>)
 
 ```kotlin
 class Student {

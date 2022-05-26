@@ -61,7 +61,7 @@ fun main(args: Array<String>) {
 
 这些型变修饰符的关系如下图所示：
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 ### 函数类型
 
@@ -94,19 +94,19 @@ printProcessedNumber(numberHash)
 
 这是因为这些存在如下关系:
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 Notice that when we go down in this hierarchy, the parameter type moves towards types that are higher in the typing system hierarchy, and the return type moves toward types that are lower.
 
 请注意，当我们在这个层次结构中从上往下走时，参数类型：向类型系统层次结构更高的类型移动，而返回类型：向更低的类型移动。
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 It is no coincidence. All parameter types in Kotlin function types are contravariant, as the name of this variance modifier in suggests. All return types in Kotlin function types are covariant, as the name of this variance modifier out suggests
 
 这并非巧合，**Kotlin 函数类型中所有参数类型都是逆变的**，就跟型变修饰符的名称 `in` 所表明的那样。 **Kotlin 函数类型中的所有返回类型都是协变的**，正如 `out` 这个型变修饰符的名称所表明的那样。
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 This fact supports us when we use function types, but it is not the only popular Kotlin type with variance modifiers. A more popular one is List which is covariant in Kotlin (out modifier). Unlike MutableList which is invariant (no variance modifier). To understand why we need to understand the safety of variance modifiers.
 
