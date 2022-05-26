@@ -44,8 +44,20 @@
   * [第30条：最小化元素的可见性](<good design/di-si-zhang-chou-xiang-she-ji/di-30-tiao-zui-xiao-hua-yuan-su-de-ke-jian-xing.md>)
   * [第31条：用文档定义合约](<good design/di-si-zhang-chou-xiang-she-ji/di-31-tiao-yong-wen-dang-ding-yi-he-yue.md>)
   * [第32条：遵守抽象合约](<good design/di-si-zhang-chou-xiang-she-ji/di-32-tiao-zun-shou-chou-xiang-he-yue.md>)
-* [第五章](<good design/di-wu-zhang.md>)
-* [第六章](<good design/di-liu-zhang.md>)
+* [第五章：对象的创建](<good design/di-wu-zhang-dui-xiang-de-chuang-jian/README.md>)
+  * [第33条：考虑使用工厂方法代替构造函数](<good design/di-wu-zhang-dui-xiang-de-chuang-jian/di-33-tiao-kao-lv-shi-yong-gong-chang-fang-fa-dai-ti-gou-zao-han-shu.md>)
+  * [第34条：考虑一个带命名可选参数的主构造函数](<good design/di-wu-zhang-dui-xiang-de-chuang-jian/di-34-tiao-kao-lv-yi-ge-dai-ming-ming-ke-xuan-can-shu-de-zhu-gou-zao-han-shu.md>)
+  * [第35条：考虑为复杂的对象创建定义 DSL](<good design/di-wu-zhang-dui-xiang-de-chuang-jian/di-35-tiao-kao-lv-wei-fu-za-de-dui-xiang-chuang-jian-ding-yi-dsl.md>)
+* [第六章：类的设计](<good design/di-liu-zhang-lei-de-she-ji/README.md>)
+  * [第36条：组合优于继承](<good design/di-liu-zhang-lei-de-she-ji/di-36-tiao-zu-he-you-yu-ji-cheng.md>)
+  * [第37条:使用数据修饰符来表示一组数据](<good design/di-liu-zhang-lei-de-she-ji/di-37-tiao-shi-yong-shu-ju-xiu-shi-fu-lai-biao-shi-yi-zu-shu-ju.md>)
+  * [第38条：使用函数类型而不是接口来传递操作和行为](<good design/di-liu-zhang-lei-de-she-ji/di-38-tiao-shi-yong-han-shu-lei-xing-er-bu-shi-jie-kou-lai-chuan-di-cao-zuo-he-hang-wei.md>)
+  * [第39条：类层次结构优于带标签的类](<good design/di-liu-zhang-lei-de-she-ji/di-39-tiao-lei-ceng-ci-jie-gou-you-yu-dai-biao-qian-de-lei.md>)
+  * [第40条：遵守 equals 的合约](<good design/di-liu-zhang-lei-de-she-ji/di-40-tiao-zun-shou-equals-de-he-yue.md>)
+  * [第41条：遵守 hashCode 的合约](<good design/di-liu-zhang-lei-de-she-ji/di-41-tiao-zun-shou-hashcode-de-he-yue.md>)
+  * [第42条：遵守 compareTo 的合约](<good design/di-liu-zhang-lei-de-she-ji/di-42-tiao-zun-shou-compareto-de-he-yue.md>)
+  * [第43条： 考虑将 API 的非必要部分提取到扩展函数中](<good design/di-liu-zhang-lei-de-she-ji/di-43-tiao-kao-lv-jiang-api-de-fei-bi-yao-bu-fen-ti-qu-dao-kuo-zhan-han-shu-zhong.md>)
+  * [第44条：避免在成员中定义扩展](<good design/di-liu-zhang-lei-de-she-ji/di-44-tiao-bi-mian-zai-cheng-yuan-zhong-ding-yi-kuo-zhan.md>)
 
 ## 第三部分：性能 <a href="#performance" id="performance"></a>
 
