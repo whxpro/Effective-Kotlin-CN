@@ -12,7 +12,7 @@
 
 如果觉得对你有用的话，可以点个star哦\~   [https://github.com/Rikkatheworld/Effective-Kotlin-CN](https://github.com/Rikkatheworld/Effective-Kotlin-CN)
 
-译者水平有限，若有勘误、语句不顺、翻译错误，你可以：
+译者水平有限，若有语句不顺、翻译错误，你可以：
 
 * 在 issue 中讨论
 * 联系我：619640227@qq.com
