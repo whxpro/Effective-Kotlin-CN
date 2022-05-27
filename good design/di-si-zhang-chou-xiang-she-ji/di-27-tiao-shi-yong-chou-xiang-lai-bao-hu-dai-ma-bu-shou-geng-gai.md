@@ -55,7 +55,7 @@ val MAX_THREADS = 10
 Toast.makeText(this, message, Toast.LENGTH_LONG).show()
 ```
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (1).png>)
 
 我们可以将这个通用算法提取成一个简单的扩展函数来展示 Toast：
 
@@ -87,7 +87,7 @@ fun Context.snackbar(
 }
 ```
 
-![](<../../.gitbook/assets/image (6) (1).png>)
+![](<../../.gitbook/assets/image (6) (1) (1).png>)
 
 这个解决方案一点都不好。 首先，重命名这个功能可能会很危险，即使它只是在自己的模块中被使用，更别说被其他模块引用这个函数的情况了。 另一个问题是：参数不能如此轻易的改动，这里仍然需要 toast API 来声明消息持续的时间，这问题很大，当我们展示一个 snakebars 时，我们不应该依赖 `Toast` 的一个字段，另一方面，即使替换成 `Snackbar` 的枚举值，也会有问题：
 
@@ -279,7 +279,7 @@ fun getNextId(): Id = Id(nextId++)
 
 我们可以无限地提取抽象概念，但很快就会弊大于利， `FizzBuzz Enterprise Edition` 项目就专门恶搞了这一点，作者们展示了即使对于 `FizzBuzz` 这样简单的问题，人们也可以提炼出大量荒谬的抽象概念，使得问题难以理解。在写这本书时，这个项目有 61 个类 和 26 个接口，所有这些都是为了解决一个通常只需要不到 10 行代码就能解决的问题。当然，在任何级别上应用更改都很容易，但另方面，理解这些代码是做什么的，以及它是如何做到这一点的确实及其困难的。
 
-<img src="../../.gitbook/assets/image (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
 
 抽象可以隐藏很多东西，一方面，当需要考虑的东西比较少时，开发就更容易，另一方面，当我们使用太多抽象时，就很难理解我们行为会产生什么后果。使用 `showMessage` 函数时，我们可能会认为它仍然展示 Toast，而它展示 Snackbar 时，我们可能会感到惊讶。一旦看到出现了不是用 `toast` 来展示消息的情景，开发者可能会去使用 `Toast.makeText`，并且心存疑惑，因为它是使用 `showMessage` 展示的。 有太多的抽象让我们更难理解代码，当我们不确定自己行为的后果时，它也会让我们焦虑。
 

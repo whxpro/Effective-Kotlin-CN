@@ -47,7 +47,7 @@ class HelloWorld : View() {
 }
 ```
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 DSL 还经常用于定义数据或配置。下面是 Ktor 中的API定义，也是一个 DSL：
 

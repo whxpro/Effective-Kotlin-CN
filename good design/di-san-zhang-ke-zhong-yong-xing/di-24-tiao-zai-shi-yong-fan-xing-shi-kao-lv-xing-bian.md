@@ -94,7 +94,7 @@ printProcessedNumber(numberHash)
 
 这是因为这些存在如下关系:
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 Notice that when we go down in this hierarchy, the parameter type moves towards types that are higher in the typing system hierarchy, and the return type moves toward types that are lower.
 

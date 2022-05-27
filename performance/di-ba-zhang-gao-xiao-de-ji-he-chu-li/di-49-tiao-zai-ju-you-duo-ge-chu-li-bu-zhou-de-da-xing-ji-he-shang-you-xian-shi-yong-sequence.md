@@ -75,7 +75,7 @@ listOf(1,2,3)
 // 打印: F1, F2, F3, M1, M3, E2, E6,
 ```
 
-![](<../../.gitbook/assets/image (6) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (6) (1) (1) (1) (1).png>)
 
 请注意，如果我们不使用任何集合处理函数来实现这些操作，而是使用经典的循环和条件控制，就会像序列处理那样按逐元素次序的顺序执行：
 
@@ -336,7 +336,7 @@ Java 8 的流是惰性的，在终止操作中进行集合处理。 Java 流和 
 
 Kotlin Sequence 和 Java Stream 都可以帮助我们在每个步骤中调试元素。对于 Java 流，它需要一个名为“Java Stream Debugger” 的插件，Kotlin Sequence 则需要一个名为 “Kotlin Sequence Debugger” 的插件，尽管现在这个功能已经集成到 Kotlin 插件中了。 下面展示调试了每一步的序列调试：
 
-![](<../../.gitbook/assets/image (8) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1) (1) (1).png>)
 
 ### 总结
 

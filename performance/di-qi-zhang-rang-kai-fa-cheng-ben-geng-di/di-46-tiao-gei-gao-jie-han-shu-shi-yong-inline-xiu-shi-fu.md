@@ -97,7 +97,7 @@ inline fun print(message: Any?) {
 
 但是，当函数没有任何实参时，使用这种方法和不使用的差异几乎是微不足道的。这就是 IntelliJ 给出这样一个警告的原因。
 
-![](<../../.gitbook/assets/image (8) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1).png>)
 
 为了理解其中的原因，我们首先要理解函数作为对象进行操作的问题是什么。这些类型的对象（使用函数字面量创建）需要以某种方式保存。在 Kotlin/JS 中，这很简单，因为 JavaScript 视函数为一等公民。因此在 Kotlin/JS，它要么是一个函数，要么是一个函数引用。在 Kotlin/JVM 上，需要用 JVM 匿名类或普通类来创建对象，因此，下面的 lambda 表达式：
 
