@@ -106,7 +106,7 @@ It is no coincidence. All parameter types in Kotlin function types are contravar
 
 这并非巧合，**Kotlin 函数类型中所有参数类型都是逆变的**，就跟型变修饰符的名称 `in` 所表明的那样。 **Kotlin 函数类型中的所有返回类型都是协变的**，正如 `out` 这个型变修饰符的名称所表明的那样。
 
-![](<../../.gitbook/assets/image (7) (1) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1) (1).png>)
 
 This fact supports us when we use function types, but it is not the only popular Kotlin type with variance modifiers. A more popular one is List which is covariant in Kotlin (out modifier). Unlike MutableList which is invariant (no variance modifier). To understand why we need to understand the safety of variance modifiers.
 

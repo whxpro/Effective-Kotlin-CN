@@ -46,7 +46,7 @@
   * [第32条：遵守抽象合约](<good design/di-si-zhang-chou-xiang-she-ji/di-32-tiao-zun-shou-chou-xiang-he-yue.md>)
 * [第五章：对象的创建](<good design/di-wu-zhang.md>)
   * [第33条：考虑使用工厂方法代替构造函数](<good design/di-wu-zhang-dui-xiang-de-chuang-jian/di-33-tiao-kao-lv-shi-yong-gong-chang-fang-fa-dai-ti-gou-zao-han-shu.md>)
-  * [第34条：考虑一个带命名可选参数的主构造函数](<good design/di-wu-zhang-dui-xiang-de-chuang-jian/di-34-tiao-kao-lv-yi-ge-dai-ming-ming-ke-xuan-can-shu-de-zhu-gou-zao-han-shu.md>)
+  * [第34条：考虑带命名默认参数的主构造函数](<good design/di-wu-zhang-dui-xiang-de-chuang-jian/di-34-tiao-kao-lv-dai-ming-ming-mo-ren-can-shu-de-zhu-gou-zao-han-shu.md>)
   * [第35条：考虑为复杂的对象创建定义 DSL](<good design/di-wu-zhang-dui-xiang-de-chuang-jian/di-35-tiao-kao-lv-wei-fu-za-de-dui-xiang-chuang-jian-ding-yi-dsl.md>)
 * [第六章：类的设计](<good design/di-liu-zhang.md>)
   * [第36条：组合优于继承](<good design/di-liu-zhang-lei-de-she-ji/di-36-tiao-zu-he-you-yu-ji-cheng.md>)
