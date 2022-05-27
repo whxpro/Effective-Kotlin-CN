@@ -75,7 +75,7 @@ listOf(1,2,3)
 // 打印: F1, F2, F3, M1, M3, E2, E6,
 ```
 
-![](<../../.gitbook/assets/image (6) (1) (1).png>)
+![](<../../.gitbook/assets/image (6) (1) (1) (1).png>)
 
 请注意，如果我们不使用任何集合处理函数来实现这些操作，而是使用经典的循环和条件控制，就会像序列处理那样按逐元素次序的顺序执行：
 
@@ -97,7 +97,7 @@ for (e in listOf(1,2,3)) {
 
 通常我们不需要在每个步骤中处理整个集合来产生结果。假设我们有一个包含数百万个元素的集合，在处理后，我们只需要取提前10个元素，为什么要处理所有其他元素？ `Iterable` 操作没有中间操作的概念，因此整个集合被处理，就好像每个操作都返回它一样。`Sequence` 不需要这样做，因此它们将执行获得结果所需的最少操作：
 
-![](<../../.gitbook/assets/image (7) (1) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1) (1).png>)
 
 看一下这个例子，我们有几个处理步骤，最终用 `find` 来结束操作：
 
@@ -336,7 +336,7 @@ Java 8 的流是惰性的，在终止操作中进行集合处理。 Java 流和 
 
 Kotlin Sequence 和 Java Stream 都可以帮助我们在每个步骤中调试元素。对于 Java 流，它需要一个名为“Java Stream Debugger” 的插件，Kotlin Sequence 则需要一个名为 “Kotlin Sequence Debugger” 的插件，尽管现在这个功能已经集成到 Kotlin 插件中了。 下面展示调试了每一步的序列调试：
 
-![](<../../.gitbook/assets/image (8) (1) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1) (1).png>)
 
 ### 总结
 

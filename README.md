@@ -2,7 +2,7 @@
 
 **本书仅供学习使用，转载、引用请标明出处。**
 
-****![](<.gitbook/assets/image (12).png>)****
+****![](<.gitbook/assets/image (12) (1).png>)****
 
 《Effective Kotlin》中文版 ，人生苦短， Kotlin为伴。
 

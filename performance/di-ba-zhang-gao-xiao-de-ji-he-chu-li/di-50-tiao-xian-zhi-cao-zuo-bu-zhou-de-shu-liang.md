@@ -27,13 +27,13 @@ The biggest problem is not the misunderstanding of the importance of such change
 
 最大的问题，不是误解这些改变的重要性，而是我们缺乏应该使用哪些集合处理函数的知识。这是我们要去学习它的一个原因。此外，IDE 的警告常会建议我们引入更好的替代方案，这对我们也很有帮助。
 
-![](<../../.gitbook/assets/image (6) (1).png>)
+![](<../../.gitbook/assets/image (6) (1) (1).png>)
 
 Still, it is good to know alternative composite operations. Here is a list of a few common function calls and alternative ways that limit the number of operations:
 
 尽管如此，知道一些复合操作是更好的，下面是一些常用的函数调用和限制步骤数量的替代方法：
 
-![](<../../.gitbook/assets/image (9) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1).png>)
 
 ### Summary
 

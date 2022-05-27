@@ -31,7 +31,7 @@ suspend fun getUsers(): List<User> {
 }
 ```
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (11) (1).png>)
 
 我们应该预料到这些因素随时可能发生变化，同样，不要担心元素长时间处于实验状态，这样做虽然会减缓应用的速度，但也有助于我们设计出更好的 API。
 
