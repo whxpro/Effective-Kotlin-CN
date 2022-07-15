@@ -31,4 +31,4 @@ fun List<Student>.getNames(): List<String> = this
 
 ### 总结
 
-Most collection processing steps require iteration over the whole collection and intermediate 大多数集合处理步骤需要对整个集合和中间集合创建进行迭代。可以通过使用更合适的集合处理功能来节约成本。
+大多数集合处理步骤需要对整个集合和中间集合创建进行迭代。可以通过使用更合适的集合处理功能来节约成本。
