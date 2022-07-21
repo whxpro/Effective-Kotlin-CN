@@ -187,7 +187,7 @@ fun Int.myPlus(other: Int) = this + other
 val myPlus = fun Int.(other: Int) = this + other
 ```
 
-myPlus 是什么类型的？ 答案是这是一种特殊的类型，用来表示扩展函数，它被称为_带有接收者的函数类型_。它看起来类似于普通的函数类型，但它在参数之前额外指定了接收方类型，它们之间用点来分割：
+myPlus 是什么类型的？ 答案是这是一种特殊的类型，用来表示扩展函数，它被称为\_带有接收者的函数类型\_。它看起来类似于普通的函数类型，但它在参数之前额外指定了接收方类型，它们之间用点来分割：
 
 ```kotlin
 val myPlus: Int.(Int)->Int = fun Int.(other: Int) = this + other
@@ -230,7 +230,7 @@ val user = User().apply {
 }
 ```
 
-Function type with a receiver is the most basic building block of Kotlin DSL. Let’s create a very 带有接收者的函数类型是 Kotlin DSL 中最基本的构建块，让我们创建一个非常简单的 DSL， 它允许我们创建下面的 HTML 表：
+带有接收者的函数类型是 Kotlin DSL 中最基本的构建块，让我们创建一个非常简单的 DSL， 它允许我们创建下面的 HTML 表：
 
 ```kotlin
 fun createTable(): TableDsl = table {
@@ -316,7 +316,7 @@ class TrBuilder {
 }
 ```
 
-这是一个用于创建 HTML 表的全功能 DSL 构建器。可以使用_第15条：考虑显式引用接收者_中的阐述的 `DslMakrer` 来改进。
+这是一个用于创建 HTML 表的全功能 DSL 构建器。可以使用\_第15条：考虑显式引用接收者\_中的阐述的 `DslMakrer` 来改进。
 
 ### 我们什么时候使用它？
 
