@@ -31,7 +31,7 @@
 * [第三章：可重用性](<good design/di-san-zhang-ke-zhong-yong-xing/README.md>)
   * [第19条：不要重复知识](<good design/di-san-zhang-ke-zhong-yong-xing/di-19-tiao-bu-yao-zhong-fu-zhi-shi.md>)
   * [第20条：不要重复实现常用算法](<good design/di-san-zhang-ke-zhong-yong-xing/di-20-tiao-bu-yao-zhong-fu-shi-xian-chang-yong-suan-fa.md>)
-  * [第21条](<good design/di-san-zhang-ke-zhong-yong-xing/di-21-tiao.md>)
+  * [第21条 使用属性代理来提取公共的属性模式](<good design/di-san-zhang-ke-zhong-yong-xing/di-21-tiao-shi-yong-shu-xing-dai-li-lai-ti-qu-gong-gong-de-shu-xing-mo-shi.md>)
   * [第22条：当实现公共算法时使用泛型](<good design/di-san-zhang-ke-zhong-yong-xing/di-22-tiao-dang-shi-xian-gong-gong-suan-fa-shi-shi-yong-fan-xing.md>)
   * [第23条：避免隐藏类型参数](<good design/di-san-zhang-ke-zhong-yong-xing/di-23-tiao-bi-mian-yin-cang-lei-xing-can-shu.md>)
   * [第24条：在使用泛型时考虑型变](<good design/di-san-zhang-ke-zhong-yong-xing/di-24-tiao-zai-shi-yong-fan-xing-shi-kao-lv-xing-bian.md>)
